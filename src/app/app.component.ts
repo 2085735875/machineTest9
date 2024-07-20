@@ -84,9 +84,10 @@ export class AppComponent  implements OnInit{
   }
   onSignUp(){
    if(this.signUpForm.valid){
-    console.log(this.signUpForm.value); 
-    this.f['currentAdd'].getRawValue().value
-    this.f['permanentAdd'].getRawValue().value
+    // console.log(this.signUpForm.value); 
+    console.log(this.signUpForm.getRawValue())
+    // this.f['currentAdd'].getRawValue().value
+    // this.f['permanentAdd'].getRawValue().value
     this.signUpForm.reset() 
 
    }
