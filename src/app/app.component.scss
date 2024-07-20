@@ -1,0 +1,9 @@
+
+.form-control.ng-dirty.ng-invalid,
+.form-control.ng-touched.ng-invalid{
+    border : 2px solid red;
+}
+
+.bgInfo{
+    background-color: rgb(199, 206, 204);
+}
